@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "qaf"
+version = "0.1.0"
+description = ""
+authors = ["Roberto Ricci <roberto.rricci@gmail.com.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10.0"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
