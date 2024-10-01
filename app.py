@@ -57,7 +57,7 @@ def main():
         #st.write('Fundamentus:', fundamentus.__version__)
         st.write('Feito com Carinho ')
         st.markdown("- Roberto Carlos Ricci")
-        st.markdown("- <a href='mailto:pbisolucoes@gmail.com' target='_blank'><img src='https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white' target='_blank'> </a> ", unsafe_allow_html=True)
+        st.markdown("- <a href='mailto:roberto.rricci@gmail.com' target='_blank'><img src='https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white' target='_blank'> </a> ", unsafe_allow_html=True)
         st.markdown("- [![Linkedin Badge](https://img.shields.io/badge/-%40robertoricci-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://bit.ly/lirobertocarlosricci)](https://bit.ly/lirobertocarlosricci)")
 
 
