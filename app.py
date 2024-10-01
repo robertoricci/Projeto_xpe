@@ -47,6 +47,18 @@ def main():
     )
 
     pages[page]()
+    with st.sidebar.expander('Sobre'):
+        # Mostrar versões das bibliotecas
+        #st.write(os.popen(f'python --version').read())
+        #st.write('Streamlit:', st.__version__)
+        #st.write('Pandas:', pd.__version__)
+        #st.write('yfinance:', yf.__version__)
+        #st.write('plotly:', plotly.__version__)
+        #st.write('Fundamentus:', fundamentus.__version__)
+        st.write('Feito com Carinho ')
+        st.markdown("- Roberto Carlos Ricci")
+        st.markdown("- <a href='mailto:pbisolucoes@gmail.com' target='_blank'><img src='https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white' target='_blank'> </a> ", unsafe_allow_html=True)
+        st.markdown("- [![Linkedin Badge](https://img.shields.io/badge/-%40robertoricci-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://bit.ly/lirobertocarlosricci)](https://bit.ly/lirobertocarlosricci)")
 
 
 def page_home():

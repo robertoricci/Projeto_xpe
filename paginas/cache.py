@@ -71,8 +71,6 @@ def busca_dados_setores():
     return df
 
 
-
-
 def busca_dados_setores_fii():
 
     query = """

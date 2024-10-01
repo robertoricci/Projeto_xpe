@@ -86,6 +86,9 @@ def home():
     unsafe_allow_html=True,
     )
 
+    st.write("")
+    st.write("")
+
     col1.markdown(
     """<a href="https://amzn.to/3WsNaho">
         <img src="https://m.media-amazon.com/images/I/71XhGdYgoTL._SY522_.jpg" alt="O investidor inteligente " width="300" class="rounded-image">
@@ -116,8 +119,15 @@ def home():
     unsafe_allow_html=True,
     )
 
-
-
+    st.write("")
+    st.markdown(
+         "[Link Github Projeto](https://https://github.com/robertoricci/Projeto_xpe)"
+     )
+    
+    st.write("")
+    st.markdown(
+         "[Link Github da Minha caminhada no BOOTCAMP](https://github.com/robertoricci/XPE-Bootcamp-Cientista-de-Dados-com--nfase-em-Mercado-Financeiro)"
+     )
 
 
     st.markdown("# Disclaimer:")
