@@ -6,8 +6,7 @@ import base64
 def home():
     st.html('<h3 class="title">Bem Vindo ao desafio final XPE - Simulador Financeiro</h3>')
 
-    st.html("<iframe src='https://robertoricci.github.io/pbisolutions.github.io/' width='700' height='600'></iframe>")
-
+   
     """Cria a página"""
     st.markdown("#### Sobre o Bootcamp - Ciências de Dados para o Mercado Financeiro DA XPE")
     c1, c2 = st.columns(2)
@@ -121,7 +120,7 @@ def home():
 
     st.write("")
     st.markdown(
-         "[Link Github Projeto](https://https://github.com/robertoricci/Projeto_xpe)"
+         "[Link Github Projeto](https://github.com/robertoricci/Projeto_xpe)"
      )
     
     st.write("")
